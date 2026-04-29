@@ -1,28 +1,47 @@
-# EchoBlock — Overview
+# EchoBlock
 
-**EchoBlock** is a GalaxyModz plugin that turns any block in your world into a trigger. When players walk on, interact with, or break an Echo Block, it fires a configurable chain of actions — messages, sounds, commands, and more.
+> Turn any block into a trigger. Walk on it, click it, break it — and watch your server come alive.
 
----
-
-## What It Does
-
-EchoBlock links physical blocks to event chains defined in `blocks.yml`. Each block has a trigger type and an ordered list of actions with optional delays and per-block cooldowns.
-
-**Key Features:**
-
-- Register any block as an Echo Block using a single command
-- Chain multiple actions per trigger (messages, sounds, commands, broadcasts)
-- Per-block cooldown and action delay support
-- Persistent — blocks survive server restarts
-- Hot-reload support — no restart needed after config changes
+EchoBlock lets you attach event chains to any block in your world. No scripting, no complex setup — just place a block, register it with one command, and define what happens in a simple config file.
 
 ---
 
-## Use Cases
+## What can you build with it?
 
-- Interactive adventure map triggers
-- Announcement zones (entering a region plays a sound and sends a message)
-- Automate command execution on block interaction
+The short answer: anything that reacts to a player.
+
+- A pressure plate at the dungeon entrance that plays an ominous sound and flashes a warning message
+- A hidden trigger block that runs a console command when a player steps on it
+- An info board that broadcasts a message to the whole server when someone interacts with it
+- Event zones that fire timed action sequences — sounds, messages, and commands with delays between them
+
+If it involves a block and a player, EchoBlock can handle it.
+
+---
+
+## Features
+
+**Block registration**
+Register any block in the world as an Echo Block with a single command — no coordinates to type, just look at the block and run `/echoblock set <id>`.
+
+**Action chains**
+Each Echo Block runs an ordered list of actions when triggered. Mix and match messages, sounds, commands, broadcasts, and delays in any order you want.
+
+**Three trigger types**
+Choose how each block fires — when a player walks on it (`WALK_ON`), right-clicks it (`INTERACT`), or breaks it (`BREAK`).
+
+**Per-block cooldowns**
+Set a cooldown per block so actions don't fire every tick. A global default is set in `config.yml` and can be overridden per block.
+
+**Persistent & hot-reloadable**
+Echo Blocks survive server restarts. Config changes apply instantly with `/echoblock reload` — no downtime.
+
+---
+
+## Get EchoBlock
+
+Available on BuiltByBit:
+[builtbybit.com/resources/echoblock-capture-your-last-words.101654](https://builtbybit.com/resources/echoblock-capture-your-last-words.101654/)
 
 ---
 
@@ -36,6 +55,7 @@ EchoBlock links physical blocks to event chains defined in `blocks.yml`. Each bl
 ## Developers
 
 Built by **GalaxyModz** & **Frostbyte**
+Questions? Join us at **discord.gg/galaxymodz**
 
 ---
 
