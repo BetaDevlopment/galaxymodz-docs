@@ -1,4 +1,4 @@
-# SpawnControl — FAQ
+# SpawnControl | FAQ
 
 **Q: Does SpawnControl work with other spawn-related plugins?**
 A: It may conflict with plugins that directly modify spawn rates (e.g., MobControl, ClearLagg). Test compatibility on a staging server first.
@@ -6,7 +6,7 @@ A: It may conflict with plugins that directly modify spawn rates (e.g., MobContr
 ---
 
 **Q: Can I use SpawnControl on multiple worlds?**
-A: Yes. Zones are world-specific — just specify the `world` key in `spawns.yml` for each zone.
+A: Yes. Zones are world-specific | just specify the `world` key in `spawns.yml` for each zone.
 
 ---
 
@@ -20,7 +20,7 @@ A: Simply don't define any zones for that world in `spawns.yml`. SpawnControl on
 
 ---
 
-**Q: The plugin isn't reducing spawns — what's wrong?**
+**Q: The plugin isn't reducing spawns | what's wrong?**
 A: Ensure `zones-enabled: true` in `config.yml`, and that your coordinates in `spawns.yml` correctly cover the area. Use `/spawncontrol list` to verify zones are loaded.
 
 ---

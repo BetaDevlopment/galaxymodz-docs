@@ -1,4 +1,4 @@
-# BambEat — Configuration
+# BambEat | Configuration
 
 ## config.yml
 
@@ -42,7 +42,7 @@ effects: []
 | `saturation` | float | `1.5` | Saturation restored per bamboo eaten |
 | `cooldown` | int | `2` | Seconds before the player can eat bamboo again |
 | `require-hunger` | boolean | `true` | Prevent eating when hunger bar is full |
-| `effects` | list | — | Potion effects applied on each bamboo eat |
+| `effects` | list | | | Potion effects applied on each bamboo eat |
 
 ---
 

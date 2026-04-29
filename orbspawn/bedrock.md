@@ -1,4 +1,4 @@
-# OrbSpawn — Bedrock / Geyser Support
+# OrbSpawn | Bedrock / Geyser Support
 
 OrbSpawn has full support for Geyser (Bedrock) players. Ownership is UUID-based, so the Geyser dot-prefix is irrelevant to how spawners are tracked.
 
@@ -10,7 +10,7 @@ OrbSpawn has full support for Geyser (Bedrock) players. Ownership is UUID-based,
 |---|---|
 | Player Lookup | Both `Steve` and `.Steve` are tried automatically on transfer and `/cspawner` |
 | Display Names | All messages, GUI text, and item lore always show clean names (dot-prefix stripped) |
-| Ownership | UUID-based — unaffected by dot-prefix or its removal |
+| Ownership | UUID-based | unaffected by dot-prefix or its removal |
 | Tab Completion | Bedrock player `.Steve` appears as `Steve` |
 | No-prefix servers | Servers that remove the Geyser dot prefix are fully supported |
 

@@ -1,4 +1,4 @@
-# OrbSpawn — Installation
+# OrbSpawn | Installation
 
 ## Requirements
 

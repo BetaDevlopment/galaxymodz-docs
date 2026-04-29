@@ -1,4 +1,4 @@
-# SpawnControl — Installation
+# SpawnControl | Installation
 
 ## Requirements
 
@@ -52,7 +52,7 @@ You should see the plugin version and authors printed to confirm it loaded corre
 |---|---|
 | Plugin not loading | Confirm your server is running Paper/Spigot 1.20+ with Java 17+ |
 | Config not generated | Delete `/plugins/SpawnControl/` and restart to regenerate defaults |
-| Command not found | Check console for startup errors — the plugin may have failed to enable |
+| Command not found | Check console for startup errors | the plugin may have failed to enable |
 
 ---
 

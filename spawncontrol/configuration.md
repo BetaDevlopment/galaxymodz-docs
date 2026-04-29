@@ -1,4 +1,4 @@
-# SpawnControl — Configuration
+# SpawnControl | Configuration
 
 ## config.yml
 
@@ -65,7 +65,7 @@ zones:
 | `log-spawns` | boolean | `false` | Log every spawn event to console |
 | `global-multiplier` | float | `1.0` | Multiplier applied to all spawn rates globally |
 | `zones-enabled` | boolean | `true` | Toggle zone-based spawn control on/off |
-| `blacklist` | list | — | Entity types blocked from spawning server-wide |
+| `blacklist` | list | | | Entity types blocked from spawning server-wide |
 
 ### spawns.yml (per entity)
 

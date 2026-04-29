@@ -1,15 +1,15 @@
-# OrbSpawn — Compatibility & Known Limitations
+# OrbSpawn | Compatibility & Known Limitations
 
 ## Supported Integrations
 
 | Plugin | Role |
 |---|---|
 | TebexCheckout | Tebex integration for spawner delivery via donation packages |
-| BuycraftX | Alternative Tebex client — both supported simultaneously |
+| BuycraftX | Alternative Tebex client | both supported simultaneously |
 | RoseStacker | Stacked mob compatibility |
-| WildStacker | Alternative stacker — also fully supported |
+| WildStacker | Alternative stacker | also fully supported |
 
-> OrbSpawn supports **78 mob types** — all mobs with valid spawn eggs in the 1.21.4 API, excluding Ender Dragon and Wither.
+> OrbSpawn supports **78 mob types** | all mobs with valid spawn eggs in the 1.21.4 API, excluding Ender Dragon and Wither.
 
 ---
 

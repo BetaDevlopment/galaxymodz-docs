@@ -1,4 +1,4 @@
-# BambEat — Installation
+# BambEat | Installation
 
 ## Requirements
 

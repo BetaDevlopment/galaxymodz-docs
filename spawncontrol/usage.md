@@ -1,4 +1,4 @@
-# SpawnControl — Usage
+# SpawnControl | Usage
 
 ## Commands
 
@@ -17,7 +17,7 @@
 
 | Permission | Default | Description |
 |---|---|---|
-| `spawncontrol.admin` | OP | Full admin access — reload, zone management |
+| `spawncontrol.admin` | OP | Full admin access | reload, zone management |
 | `spawncontrol.spawn` | OP | Access to the manual spawn command |
 | `spawncontrol.info` | `true` | View version info |
 

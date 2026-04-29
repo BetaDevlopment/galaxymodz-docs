@@ -1,4 +1,4 @@
-# EchoBlock — Usage
+# EchoBlock | Usage
 
 ## Commands
 

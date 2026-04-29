@@ -1,4 +1,4 @@
-# OrbSpawn — Ownership & Transfer
+# OrbSpawn | Ownership & Transfer
 
 Ownership is stored in Persistent Data Container (PDC) entries on both the spawner block and the spawner item. UUID-based storage means it survives name changes, server restarts, and cross-platform play.
 

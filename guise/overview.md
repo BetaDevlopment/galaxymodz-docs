@@ -1,6 +1,6 @@
-# Guise — Overview
+# Guise | Overview
 
-**Guise** is a GalaxyModz plugin that lets players and admins change their visual appearance — disguising as other players, mobs, or custom skin presets — without affecting their actual identity or data.
+**Guise** is a GalaxyModz plugin that lets players and admins change their visual appearance | disguising as other players, mobs, or custom skin presets | without affecting their actual identity or data.
 
 ---
 

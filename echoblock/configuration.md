@@ -1,11 +1,11 @@
-# EchoBlock — Configuration
+# EchoBlock | Configuration
 
 ## config.yml
 
 ```yaml
 echoblock:
   debug: false
-  default-cooldown: 5  # seconds — applies to all blocks unless overridden
+  default-cooldown: 5  # seconds | applies to all blocks unless overridden
 ```
 
 ---
@@ -62,9 +62,9 @@ blocks:
 
 | Type | Description | `value` format |
 |---|---|---|
-| `MESSAGE` | Sends a chat message to the triggering player | Any string — supports `&` colour codes and `{player}` |
+| `MESSAGE` | Sends a chat message to the triggering player | Any string | supports `&` colour codes and `{player}` |
 | `BROADCAST` | Sends a message to all online players | Same as MESSAGE |
-| `COMMAND` | Runs a console command | Command string — `{player}` is replaced with the player's name |
+| `COMMAND` | Runs a console command | Command string | `{player}` is replaced with the player's name |
 | `SOUND` | Plays a Bukkit sound to the player | Bukkit sound name (e.g. `ENTITY_PLAYER_LEVELUP`) |
 | `DELAY` | Waits before executing the next action | Number of ticks |
 

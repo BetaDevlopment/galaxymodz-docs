@@ -1,4 +1,4 @@
-# BambEat — FAQ
+# BambEat | FAQ
 
 **Q: Does BambEat work with custom food plugins?**
 A: It may conflict with plugins that override item use events. Test on a staging server first.

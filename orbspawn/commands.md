@@ -1,8 +1,8 @@
-# OrbSpawn — Commands
+# OrbSpawn | Commands
 
 ## /orbspawn reload
 
-Reloads `config.yml`. All cached values refresh immediately — no server restart needed.
+Reloads `config.yml`. All cached values refresh immediately | no server restart needed.
 
 | | |
 |---|---|
@@ -45,13 +45,13 @@ Opens an interactive mob selection menu listing all 78 supported spawner types a
 | Permission | `orbspawn.admin` |
 | Default | OP |
 | Aliases | `/customspawner`, `/adminspawner` |
-| Note | Players only — not usable from console |
+| Note | Players only | not usable from console |
 
 ---
 
 ## /cspawner \<mob\>
 
-Gives **yourself** a spawner of the specified mob type. No eggs are included — the spawner runs at default Minecraft rate.
+Gives **yourself** a spawner of the specified mob type. No eggs are included | the spawner runs at default Minecraft rate.
 
 | | |
 |---|---|
@@ -95,7 +95,7 @@ Gives the target player a spawner plus `n` extra spawn eggs. Use this when you s
 /cspawner Notch warden extraegg 9
 ```
 
-> `n` must be a positive integer. Eggs are given as separate inventory items — not stored in the spawner item itself. The player must right-click the placed spawner with the eggs to fuel it.
+> `n` must be a positive integer. Eggs are given as separate inventory items | not stored in the spawner item itself. The player must right-click the placed spawner with the eggs to fuel it.
 
 ---
 

@@ -1,4 +1,4 @@
-# EchoBlock — Installation
+# EchoBlock | Installation
 
 ## Requirements
 

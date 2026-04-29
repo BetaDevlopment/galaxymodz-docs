@@ -1,4 +1,4 @@
-# EchoBlock — FAQ
+# EchoBlock | FAQ
 
 **Q: Can one block have multiple triggers?**
 A: Currently each block supports one trigger type. You can register the same block location under different IDs with different triggers as a workaround.

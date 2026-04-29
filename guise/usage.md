@@ -1,4 +1,4 @@
-# Guise — Usage
+# Guise | Usage
 
 ## Commands
 
@@ -19,7 +19,7 @@
 
 | Permission | Default | Description |
 |---|---|---|
-| `guise.use` | `false` | Basic access — required to use `/guise remove` |
+| `guise.use` | `false` | Basic access | required to use `/guise remove` |
 | `guise.player` | OP | Disguise as another player |
 | `guise.mob` | OP | Disguise as a mob |
 | `guise.preset` | OP | Apply preset disguises |
@@ -29,7 +29,7 @@
 
 ## Basic Workflow
 
-1. Run `/guise player Notch` to disguise as Notch — others will see you as that player
+1. Run `/guise player Notch` to disguise as Notch | others will see you as that player
 2. Run `/guise mob ZOMBIE` to disguise as a zombie
 3. Run `/guise remove` to revert to your real appearance
 

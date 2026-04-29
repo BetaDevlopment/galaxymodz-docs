@@ -1,10 +1,10 @@
-# Guise — Installation
+# Guise | Installation
 
 ## Requirements
 
 - Java 17+
 - Paper / Spigot 1.20+
-- ProtocolLib (required — must be installed first)
+- ProtocolLib (required | must be installed first)
 
 ---
 

@@ -1,6 +1,6 @@
-# SpawnControl — Overview
+# SpawnControl | Overview
 
-**SpawnControl** (also known as **OrbSpawn**) is a GalaxyModz plugin that gives server administrators full control over entity and orb spawning behaviour — per entity type, per region, and per world.
+**SpawnControl** (also known as **OrbSpawn**) is a GalaxyModz plugin that gives server administrators full control over entity and orb spawning behaviour | per entity type, per region, and per world.
 
 ---
 

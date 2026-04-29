@@ -1,4 +1,4 @@
-# BambEat — Usage
+# BambEat | Usage
 
 ## How to Eat Bamboo
 

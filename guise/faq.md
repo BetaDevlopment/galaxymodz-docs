@@ -1,4 +1,4 @@
-# Guise — FAQ
+# Guise | FAQ
 
 **Q: Does Guise require ProtocolLib?**
 A: Yes. ProtocolLib is required for packet-level disguise handling. Make sure it's installed and up to date.
@@ -6,7 +6,7 @@ A: Yes. ProtocolLib is required for packet-level disguise handling. Make sure it
 ---
 
 **Q: Can disguised players be detected by other plugins?**
-A: Guise only changes the visual appearance — the player's real username and UUID remain unchanged. Plugins reading player data will still see the real player.
+A: Guise only changes the visual appearance | the player's real username and UUID remain unchanged. Plugins reading player data will still see the real player.
 
 ---
 
@@ -16,7 +16,7 @@ A: No. The hitbox remains the player's standard size regardless of the mob chose
 ---
 
 **Q: Can I disguise as a custom skin without using another player's name?**
-A: Yes — use the `skin` key in `disguises.yml` presets with any valid Minecraft username to pull their skin.
+A: Yes | use the `skin` key in `disguises.yml` presets with any valid Minecraft username to pull their skin.
 
 ---
 

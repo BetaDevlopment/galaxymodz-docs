@@ -1,4 +1,4 @@
-# OrbSpawn — Configuration
+# OrbSpawn | Configuration
 
 File: `plugins/OrbSpawn/config.yml`
 Apply changes with: `/orbspawn reload`
@@ -32,21 +32,21 @@ All messages are configurable. Placeholders are replaced at runtime.
 
 | Key | Placeholder | When Used |
 |---|---|---|
-| `reload` | — | Config reloaded |
+| `reload` | | | Config reloaded |
 | `pickup-cooldown` | `{time}` | Pickup attempted during cooldown |
-| `pickup-success` | — | Spawner picked up successfully |
-| `pickup-cancelled` | — | Player clicked NO in GUI |
-| `pickup-inventory-full` | — | Items dropped due to full inventory |
+| `pickup-success` | | | Spawner picked up successfully |
+| `pickup-cancelled` | | | Player clicked NO in GUI |
+| `pickup-inventory-full` | | | Items dropped due to full inventory |
 | `admin-spawner-given` | `{type}` | Spawner given via `/cspawner` |
-| `admin-no-permission` | — | Insufficient permission |
+| `admin-no-permission` | | | Insufficient permission |
 | `transfer-success-sender` | `{player}` | Transfer completed (sender) |
 | `transfer-success-receiver` | `{sender}` | Transfer completed (receiver) |
-| `transfer-no-permission` | — | Missing `orbspawn.transfer` |
-| `transfer-hold-spawner` | — | Not holding a spawner |
-| `transfer-not-owner` | — | Spawner belongs to someone else |
+| `transfer-no-permission` | | | Missing `orbspawn.transfer` |
+| `transfer-hold-spawner` | | | Not holding a spawner |
+| `transfer-not-owner` | | | Spawner belongs to someone else |
 | `transfer-player-not-found` | `{player}` | Target player not online |
-| `transfer-self` | — | Tried to transfer to self |
+| `transfer-self` | | | Tried to transfer to self |
 
 ---
 
-*Next: [How It Works — Pickup](how-it-works-pickup.md)*
+*Next: [How It Works | Pickup](how-it-works-pickup.md)*

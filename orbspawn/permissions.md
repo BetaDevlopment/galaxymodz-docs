@@ -1,4 +1,4 @@
-# OrbSpawn — Permissions
+# OrbSpawn | Permissions
 
 | Node | Default | Description |
 |---|---|---|
@@ -6,7 +6,7 @@
 | `orbspawn.pickup` | `true` | Pick up owned spawners via GUI or pickaxe |
 | `orbspawn.transfer` | `true` | Use `/orbspawn transfer` on owned spawners |
 | `orbspawn.reload` | OP | Use `/orbspawn reload` |
-| `orbspawn.admin` | OP | Full admin access — bypasses all ownership checks. Required for `/cspawner` and `/fixspawners` |
+| `orbspawn.admin` | OP | Full admin access | bypasses all ownership checks. Required for `/cspawner` and `/fixspawners` |
 
 ---
 

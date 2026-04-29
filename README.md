@@ -1,6 +1,6 @@
 # GalaxyModz Documentation
 
-Welcome to the official documentation for **GalaxyModz** — a collection of high-quality Minecraft plugins built by **GalaxyModz** and **Frostbyte**.
+Welcome to the official documentation for **GalaxyModz** | a collection of high-quality Minecraft plugins built by **GalaxyModz** and **Frostbyte**.
 
 ---
 
@@ -19,9 +19,9 @@ GalaxyModz is a collaborative development project focused on delivering well-doc
 | Plugin | Description |
 |---|---|
 | [OrbSpawn](orbspawn/overview.md) | Exploit-proof spawner management with UUID ownership, egg fuel system, and Bedrock support |
-| [EchoBlock](echoblock/overview.md) | Block-based trigger system — run commands, messages, and sounds on interaction |
+| [EchoBlock](echoblock/overview.md) | Block-based trigger system | run commands, messages, and sounds on interaction |
 | [BambEat](bamboeat/overview.md) | Makes bamboo edible with configurable hunger, saturation, and potion effects |
-| [Guise](guise/overview.md) | Disguise system — appear as other players, mobs, or custom skins |
+| [Guise](guise/overview.md) | Disguise system | appear as other players, mobs, or custom skins |
 
 ---
 

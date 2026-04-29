@@ -1,4 +1,4 @@
-# Guise — Configuration
+# Guise | Configuration
 
 ## config.yml
 
@@ -70,7 +70,7 @@ Apply a preset with:
 | `type` | `MOB` or `PLAYER` |
 | `entity` | Bukkit entity type (for `MOB` type) |
 | `skin` | Minecraft username to pull skin from (for `PLAYER` type) |
-| `name` | Display name shown above the disguise — supports `&` colour codes |
+| `name` | Display name shown above the disguise | supports `&` colour codes |
 
 ---
 
