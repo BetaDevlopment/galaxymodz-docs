@@ -14,7 +14,7 @@
 | Minecraft API | 1.21.4 (Spigot / Paper) |
 | Java Version | 17+ |
 | Author | GalaxyModz Development |
-| Early Access | CraftPort — exclusive server access |
+| Early Access | Yes — available before public release |
 | Support | discord.gg/galaxymodz |
 | License | Commercial — License Key Required |
 

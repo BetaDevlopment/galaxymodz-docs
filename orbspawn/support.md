@@ -4,35 +4,29 @@
 
 | Channel | Details |
 |---|---|
-| Primary Contact | Raise issue through the CraftPort server's designated support channel |
 | Discord | discord.gg/galaxymodz — `#plugin-support` |
 | Website | galaxymodz.nl |
 | Response Time | Typically within 24–48 hours |
 
 ---
 
-## Bug Reporting Process
+## Bug Reporting
 
-**Step 1 — Gather information**
-Collect: server version, OrbSpawn version, Java version, full console error (if any), and exact steps to reproduce.
+When reporting a bug, include the following:
 
-**Step 2 — Contact CraftPort support**
-Raise the issue through the CraftPort server's designated support channel.
+- Server version
+- OrbSpawn version
+- Java version
+- Full console error (if any)
+- Exact steps to reproduce
 
-**Step 3 — CraftPort triage**
-General config questions are handled by CraftPort. Confirmed plugin bugs are escalated.
-
-**Step 4 — Escalation to GalaxyModz Development**
-CraftPort forwards confirmed bugs directly to GalaxyModz Development with full context.
-
-**Step 5 — Resolution**
-GalaxyModz Development patches the issue and provides an updated JAR to CraftPort.
+Reach out via the GalaxyModz Discord server or website listed above.
 
 ---
 
 ## Security Exploit Responsible Disclosure
 
-> Do **not** disclose exploits publicly. Contact CraftPort privately with full reproduction steps. CraftPort will escalate to GalaxyModz Development immediately.
+> Do **not** disclose exploits publicly. Contact GalaxyModz Development privately with full reproduction steps so the issue can be patched before it spreads.
 
 ---
 
