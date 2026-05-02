@@ -1,35 +1,20 @@
-# BambEat | Configuration
+# BambooEat | Configuration
 
 ## config.yml
 
 ```yaml
-bambeat:
-  # Hunger points restored (1 = half drumstick, 2 = 1 full drumstick)
-  hunger: 3
+# Your license key — obtain via our Discord
+license-key: "ENTER-YOUR-KEY-HERE"
 
-  # Saturation restored
-  saturation: 1.5
-
-  # Cooldown between bamboo eating attempts (seconds, 0 = no cooldown)
-  cooldown: 2
-
-  # Only allow eating when the player is not full
-  require-hunger: true
-
-  # Potion effects applied on consumption (leave empty list for none)
-  effects:
-    - type: SPEED
-      duration: 100   # ticks (20 ticks = 1 second)
-      amplifier: 0    # 0 = level I, 1 = level II, etc.
-    - type: REGENERATION
-      duration: 40
-      amplifier: 0
-```
-
-To disable all effects:
-
-```yaml
-effects: []
+eating:
+  hunger-restore: 2          # Hunger points restored (2 = one full shank)
+  saturation-restore: 0.4    # Saturation restored after eating
+  cooldown-ticks: 10         # Cooldown between eats (10 ticks = 0.5 seconds)
+  sound-volume: 1.0          # Eating sound volume (0.0 - 1.0)
+  sound-pitch: 1.0           # Eating sound pitch (0.5 - 2.0)
+  effect: NONE               # Potion effect on eat — NONE to disable
+  effect-duration-ticks: 60  # Effect duration (20 ticks = 1 second)
+  effect-amplifier: 0        # Effect level (0 = level I, 1 = level II)
 ```
 
 ---
@@ -38,11 +23,35 @@ effects: []
 
 | Key | Type | Default | Description |
 |---|---|---|---|
-| `hunger` | int | `3` | Hunger points restored per bamboo eaten |
-| `saturation` | float | `1.5` | Saturation restored per bamboo eaten |
-| `cooldown` | int | `2` | Seconds before the player can eat bamboo again |
-| `require-hunger` | boolean | `true` | Prevent eating when hunger bar is full |
-| `effects` | list | | | Potion effects applied on each bamboo eat |
+| `license-key` | string | — | Your BambooEat license key |
+| `eating.hunger-restore` | int | `2` | Hunger points restored per bamboo eaten |
+| `eating.saturation-restore` | float | `0.4` | Saturation restored per bamboo eaten |
+| `eating.cooldown-ticks` | int | `10` | Ticks before the player can eat bamboo again |
+| `eating.sound-volume` | float | `1.0` | Volume of the eating sound (0.0–1.0) |
+| `eating.sound-pitch` | float | `1.0` | Pitch of the eating sound (0.5–2.0) |
+| `eating.effect` | string | `NONE` | Potion effect applied on eat — use Bukkit effect name or `NONE` |
+| `eating.effect-duration-ticks` | int | `60` | How long the effect lasts in ticks |
+| `eating.effect-amplifier` | int | `0` | Effect strength (0 = level I) |
+
+---
+
+## Potion Effect Examples
+
+```yaml
+effect: SPEED
+effect: REGENERATION
+effect: POISON
+effect: SLOWNESS
+effect: JUMP_BOOST
+```
+
+Set `effect: NONE` to disable all effects.
+
+---
+
+## Applying Changes
+
+Run `/bambooeat reload` in-game or console after saving `config.yml`. No restart needed.
 
 ---
 
