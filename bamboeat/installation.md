@@ -6,8 +6,8 @@
 |---|---|---|
 | Java | 17+ | Required |
 | Paper | 1.21.0–1.21.11 | Required |
-| [ProtocolLib](https://github.com/dmulloy2/ProtocolLib) | Latest | Optional — enables third-person eating animation |
-| Geyser | Any | Optional — required for the [Geyser Extension](geyser.md) |
+| [ProtocolLib](https://github.com/dmulloy2/ProtocolLib) | Latest | Optional enables third-person eating animation |
+| Geyser | Any | Optional required for the [Geyser Extension](geyser.md) |
 
 ---
 
@@ -61,7 +61,7 @@ You should see the following lines in your console on startup:
 If ProtocolLib is installed you will also see:
 
 ```
-[BambooEat] ProtocolLib found — third-person eating animation enabled.
+[BambooEat] ProtocolLib found third-person eating animation enabled.
 ```
 
 ---
@@ -71,9 +71,9 @@ If ProtocolLib is installed you will also see:
 | Problem | Fix |
 |---|---|
 | Plugin not loading | Confirm Paper 1.21+ with Java 17+ |
-| License invalid | Check your key in `config.yml` — join Discord for a new key |
+| License invalid | Check your key in `config.yml` join Discord for a new key |
 | Bamboo not edible | Ensure the license is validated (check console on startup) |
-| No eating animation | Install [ProtocolLib](https://github.com/dmulloy2/ProtocolLib) — it is a separate download |
+| No eating animation | Install [ProtocolLib](https://github.com/dmulloy2/ProtocolLib) it is a separate download |
 | Config not generated | Delete `/plugins/BambooEat/` and restart |
 
 ---

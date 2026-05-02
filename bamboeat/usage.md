@@ -2,7 +2,7 @@
 
 ## How to Eat Bamboo
 
-Hold bamboo in your main hand and hold right-click. The bamboo will be consumed after the eat animation completes — just like any vanilla food item.
+Hold bamboo in your main hand and hold right-click. The bamboo will be consumed after the eat animation completes just like any vanilla food item.
 
 - Works in your hand at all times regardless of hunger level
 - Bamboo placed in non-hotbar slots is made edible automatically when picked up
@@ -15,7 +15,7 @@ Hold bamboo in your main hand and hold right-click. The bamboo will be consumed 
 
 If [ProtocolLib](https://github.com/dmulloy2/ProtocolLib) is installed, nearby Java Edition players will see a proper eating arm animation when you consume bamboo. Bedrock players connected via Geyser see the animation through the [Geyser Extension](geyser.md) instead.
 
-> ProtocolLib is a free, separate download. BambooEat works fully without it — the animation is the only thing that requires it.
+> ProtocolLib is a free, separate download. BambooEat works fully without it the animation is the only thing that requires it.
 
 ---
 

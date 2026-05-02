@@ -1,14 +1,14 @@
 # BambooEat | FAQ
 
 **Q: Do I need ProtocolLib?**
-A: No. ProtocolLib is completely optional. Without it, bamboo is fully edible and everything works normally — only the third-person eating animation (visible to other nearby Java players) requires it. [Download ProtocolLib](https://github.com/dmulloy2/ProtocolLib)
+A: No. ProtocolLib is completely optional. Without it, bamboo is fully edible and everything works normally only the third-person eating animation (visible to other nearby Java players) requires it. [Download ProtocolLib](https://github.com/dmulloy2/ProtocolLib)
 
 ---
 
 **Q: The eating animation is not showing for other players. What's wrong?**
 A: Make sure [ProtocolLib](https://github.com/dmulloy2/ProtocolLib) is installed on your server. On startup you should see:
 ```
-[BambooEat] ProtocolLib found — third-person eating animation enabled.
+[BambooEat] ProtocolLib found third-person eating animation enabled.
 ```
 If you see `ProtocolLib not found`, ProtocolLib is missing or failed to load.
 
