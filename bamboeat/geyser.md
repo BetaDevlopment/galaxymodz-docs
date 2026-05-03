@@ -30,7 +30,7 @@ The Geyser Extension is available as a **paid add-on** for **+$1.99** at checkou
 ## Installation
 
 1. Purchase the Geyser Extension add-on
-2. Place the extension JAR in the same `/plugins` folder as Geyser (see [proxy/network setup](#proxy-and-network-setup) below if you use one)
+2. Place the extension JAR in the Geyser extensions folder (see [proxy/network setup](#proxy-and-network-setup) below if you use one)
 3. Restart the server the extension registers automatically
 4. Bedrock clients connecting will receive the resource pack automatically
 
@@ -47,7 +47,7 @@ No additional configuration is required.
 
 ## Proxy and Network Setup
 
-If you run a proxy network (Velocity, BungeeCord, or any multi-server setup where Geyser sits at the proxy level), the extension still works you just need to place the files in the right locations.
+If you run a proxy network (Velocity, BungeeCord, or any multi-server setup where Geyser sits at the proxy level), the extension still works — you just need to place the files in the right locations.
 
 ### How it works on a proxy
 
@@ -62,7 +62,7 @@ This registration happens once when Geyser initialises (`GeyserDefineCustomItems
 
 | File | Where it goes |
 |---|---|
-| `BambooEat-GeyserExtension.jar` | Proxy server `/plugins` folder, alongside Geyser |
+| `BambooEat-GeyserExtension.jar` | Geyser extensions folder (e.g. `plugins/Geyser-Velocity/extensions/` for Velocity, `plugins/Geyser-Spigot/extensions/` for Spigot, `extensions/` for standalone) |
 | `BambooEat.jar` (the main plugin) | Each backend server where you want bamboo to be edible |
 
 ### One thing to keep in mind
@@ -71,7 +71,7 @@ The extension maps bamboo to a food item by detecting the `minecraft:food` data 
 
 This means:
 - On backend servers **with** BambooEat installed: bamboo is edible and Bedrock players see the full animation
-- On backend servers **without** BambooEat installed: bamboo is not edible and no animation plays which is the expected behaviour
+- On backend servers **without** BambooEat installed: bamboo is not edible and no animation plays which is the expected behaviour on bedrock
 
 ---
 
