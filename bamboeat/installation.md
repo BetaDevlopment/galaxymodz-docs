@@ -44,7 +44,9 @@ Open `plugins/BambooEat/config.yml` and replace the placeholder with your licens
 license-key: "YOUR-KEY-HERE"
 ```
 
-Then run `/bambooeat reload` in console or restart the server.
+Then **restart the server again** to apply the license key.
+
+> **Note:** `/bambooeat reload` does not apply license key changes. You must do a full server restart, or you will get an error.
 
 ### 5. Verify Installation
 
